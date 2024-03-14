@@ -36,6 +36,7 @@
 
 .icon-logo {
     width: 20%;
+    cursor: pointer;
 }
 
 .background::after {
@@ -62,6 +63,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+
 }
 
 
@@ -143,7 +150,8 @@
     text-align: right;
     position: relative;
 }
-.top-links::after{
+
+.top-links::after {
     content: '';
     position: absolute;
     width: 0%;
@@ -154,7 +162,8 @@
     transform: translate(50%);
     transition: all 0.3s linear;
 }
-.top-links:hover::after{
+
+.top-links:hover::after {
     left: -50%;
     width: 100%;
 }
@@ -227,6 +236,13 @@
     background-color: #2C49FE;
     color: white;
     border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+
 }
 
 .get-btn:hover {
@@ -432,15 +448,13 @@
 
 .lorem-text {
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 39px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
     color: #2D3CAE;
-    max-width: 220px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 
@@ -741,7 +755,7 @@
     background-color: blue;
     border: none;
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     margin-top: 16px;
     font-family: Poppins;
     font-size: 16px;
@@ -758,6 +772,10 @@
     color: #2C49FE;
     transition: 400ms;
 
+}
+
+.cur-pointer {
+    cursor: pointer;
 }
 
 /* --------------------------------footer------------------------------------- */
@@ -961,6 +979,10 @@
     transform: translateY(8px);
 }
 
+.pt-22 {
+    padding-top: 22px;
+}
+
 
 
 
@@ -1013,6 +1035,7 @@
 
     .get-btn {
         width: 172px;
+
     }
 
     .lorem-text-2 {
@@ -1190,6 +1213,10 @@
 
     .border-r {
         border-right: 2px solid #FFFFFF;
+    }
+
+    .blue-box {
+        border-radius: 150px;
     }
 
 
